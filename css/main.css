@@ -142,6 +142,10 @@ ul {
     margin-left: 1.4rem;
   }
 
+  .card-body h2 {
+    padding: 0;
+  }
+
   .card-body {
     display: inline-block;
     width: 90%;
@@ -149,6 +153,36 @@ ul {
 
   .cards {
     margin: .5rem;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
+
+  h1,
+  p {
+    margin: 0 0 1.5rem;
+  }
+
+  .card-img img {
+    margin-bottom: 1.5rem;
+  }
+
+  .card-body {
+    margin-left: .5rem;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 130%;
   }
 
 }
