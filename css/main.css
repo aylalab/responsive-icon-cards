@@ -26,7 +26,7 @@ p {
   margin: 0 0 1.3rem;
 }
 
-img {
+.card-img img {
   max-width: 50px;
   display: block;
   margin-left: auto;
@@ -39,7 +39,7 @@ img {
   padding-left: 0;
 }
 
-h2 {
+.card-body h2 {
   display: inline-block;
   text-decoration: none;
   margin-bottom: 0;
@@ -49,6 +49,10 @@ h2 {
 
 .card-body p {
   margin-bottom: .5rem;
+}
+
+.cards {
+  list-style-type: none;
 }
 
 .card-body {
