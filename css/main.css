@@ -21,8 +21,13 @@ body {
   margin: 0;
 }
 
-.card-img {
-  width: 50px;
+h1,
+p {
+  margin: 0 0 1.3rem;
+}
+
+img {
+  max-width: 50px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -49,6 +54,12 @@ h2 {
   color: #000;
 }
 
+ul {
+  list-style-type: none;
+  padding-left: .5rem;
+  margin-top: .5rem;
+}
+
 @media only screen and (min-width: 25em) {
 
   html {
@@ -63,23 +74,29 @@ h2 {
 
   .card-img {
     display: inline-block;
-    float: left;
+    width: 24%;
   }
 
   .card-body {
     display: inline-block;
+    width: 74%;
   }
 
-  .card-body p {
-    display: inline-block;
+  ul {
+    margin-top: 0;
+    padding-left: 0;
   }
 
-  li {
-    display: inline-block;
+  img {
+    margin-left: .5rem;
   }
 
   h2 {
-    margin-top: 0;
+    margin-top: .5rem;
+  }
+
+  p {
+    margin-bottom: .5rem;
   }
 
 }
